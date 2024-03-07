@@ -2,6 +2,7 @@ import * as fs from 'fs'
 import jsonminify from 'jsonminify'
 
 // set up slack
+// note: getting a slack admin account is free! You can use it to make bots like this. I should do that for Sunlight...
 import { WebClient } from '@slack/web-api'
 const SLACK_TOKEN = process.env.SLACK_TOKEN;
 const client = new WebClient(SLACK_TOKEN);

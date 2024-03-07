@@ -13,6 +13,7 @@
   "dependencies": {
     "@slack/web-api": "^7.0.2",
     "dayjs": "^1.11.10",
+    "install": "^0.13.0",
     "jsonminify": "^0.4.2"
   }
 }
